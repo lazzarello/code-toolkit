@@ -1,1 +1,10 @@
 This is a repository of my random crypto playing around.
+
+one_time_pad.rb: an implementation of a simple base 25 alphabetic 
+ stream cypher cryptosystem based on the Ruby rand() method for secrecy. While
+ far from a real one time pad it's still fun to mess around with.
+
+diffie-hellman-exchange.rb: a simple proof of a Diffie Hellman exchange to be
+run in two concurrent terminals. The input is a little weird and my
+exponentiation and primitive root generation system is waaaay off. But it does work for small
+input values.
